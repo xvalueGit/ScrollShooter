@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e945d4cecd6242b49dd88186d05cba27, type: 3}
+  m_Name: All UFOs
+  m_EditorClassIdentifier: 
+  startingFuel: 999
+  stages:
+  - duration: 60
+    spawnRate: 10
+    enemies:
+    - enemy: {fileID: 6931169962429600746, guid: dd4f3b6af2a0a714c919f72655955cb8, type: 3}
+      spawnWeight: 1
